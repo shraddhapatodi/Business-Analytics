@@ -1,8 +1,6 @@
 
 #==================================================================
 ## Title: Impact of salesperson training on performance.
-## Case Study 2
-## Submitted by: Arjoo Gangwal, Randall Nguyen, Shraddha Patodi
 #==================================================================
 
 #==================================================================
@@ -13,7 +11,7 @@
 rm(list = ls())
 
 #Setting the working directory
-setwd("/Users/ag/Desktop/Econometrics/Case Study2")
+setwd("/Users/SP/Desktop/Econometrics/Case Study2")
 
 
 #Install packages

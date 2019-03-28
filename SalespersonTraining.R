@@ -156,6 +156,7 @@ df2 <- data.frame(predicted_sales,self_training_score)
 ggplot(df2, aes(y=predicted_sales, x=self_training_score)) +geom_point(size = 2.5) + stat_smooth(method = lm, colour = "red") + xlab("Self Training Score") + ylab(" Predicted Annual Sales($K)") #As we expected they show a linear relationship
 #Using the Model-6 we calculate the predicted sales corresponding to average test scores of trained and untrained salesperson
 predict(model3, data.frame(self_training_score = c(101, mean(mydata$self_training_score))))
+exp(5.686739)-exp(5.636512) # This is the impact of completing training on annual sales. On average, we can conclude that training increases annual sales per salesperson by about $14.4K.
  #================================================================
 ## END
 #================================================================
